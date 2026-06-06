@@ -1,0 +1,28 @@
+# --- Generated from OpenSCAD source (regenerate; don't commit) ---
+*.stl
+*.3mf
+*.amf
+*.off
+*.dxf
+*.svg
+*.csg
+ 
+# Renders / exports
+*.png
+*.gif
+ 
+# OpenSCAD cache & backups
+*.bak
+.openscad/
+ 
+# --- OS cruft ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ 
+# --- Editor / IDE ---
+*.swp
+*~
+.vscode/
+.idea/
+ 
