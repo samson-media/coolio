@@ -4,7 +4,7 @@ Parametric OpenSCAD model for a modular Raspberry Pi rack fan mount. Two
 120 mm fans per side, mounted on a 2020 extrusion spine across 6U,
 cantilevered off one rail and reaching ~80 mm into the rack (140 mm budget).
 
-![Assembly — rail side](docs/assets/assembly.png)
+<img src="docs/assets/assembly.png" alt="Assembly — rail side" width="320">
 
 ## The design
 
@@ -21,7 +21,7 @@ which wrongly assume holes are evenly spaced. Rather than fight the pattern,
 this mount touches the rail in as few places as possible and carries everything
 else on its own structure.
 
-![EIA-310 rail hole pattern](docs/assets/eia310_rack_hole_pattern.svg)
+<img src="docs/assets/eia310_rack_hole_pattern.svg" alt="EIA-310 rail hole pattern" width="420">
 
 The result is three interconnected parts:
 
@@ -33,14 +33,14 @@ The result is three interconnected parts:
 Because the parts are decoupled, any one of them can be reprinted or remade
 without touching the others.
 
-![Assembly — fan side](docs/assets/assembly2.png)
+<img src="docs/assets/assembly2.png" alt="Assembly — fan side" width="320">
 
 ### Fitting two fans in 6U
 
 6U is 266.7 mm. Two 120 mm fans stack into that height with ~27 mm of
 headroom left for the carrier and gaps — tight, but it fits.
 
-![Two 120 mm fans in a 6U budget](docs/assets/two_120mm_fans_in_6u_height_budget.svg)
+<img src="docs/assets/two_120mm_fans_in_6u_height_budget.svg" alt="Two 120 mm fans in a 6U budget" width="420">
 
 ### Engineering notes
 
@@ -58,7 +58,7 @@ The fans are 4-pin PWM, controlled from a Raspberry Pi: 25 kHz PWM on GPIO18,
 tach read on GPIO24 (pulled up to **3.3 V — never 5 V**), 12 V from a separate
 supply with a common ground.
 
-![Pi to 4-pin PWM fan wiring](docs/assets/pi_to_pwm_fan_wiring_diagram.svg)
+<img src="docs/assets/pi_to_pwm_fan_wiring_diagram.svg" alt="Pi to 4-pin PWM fan wiring" width="500">
 
 ## Files
 
